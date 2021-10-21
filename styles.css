@@ -1,0 +1,39 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(white, rgb(255, 223, 163));
+}
+header {
+    display: inline;
+}
+.title {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 50px;
+    margin : 70px;
+    margin-inline-start: 25%;
+    margin-inline-end: 25%;
+}
+#fb, #in, #gh{
+    width: 45px;
+    height: auto;
+    padding : 2px;
+    transition: .2s;
+}
+.socials {
+    vertical-align: top;
+    float: right;
+    margin-right: 0px;
+}
+
+#fb:hover, #in:hover, #gh:hover{
+    width: 65px;
+    border-radius: 50%;
+    transition:.5s;
+}
+.right{
+    float:right;
+
+}
+.content{
+    float: left;
+}
